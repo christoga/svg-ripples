@@ -1,0 +1,71 @@
+/* Component styles */
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.25em;
+	text-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+	padding: 1.5em 3em;
+	margin: 0;
+	position: relative;
+	min-width: 250px;
+	display: inline-block;
+}
+
+.button.styl-material {
+	-webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	background: #E91E63;
+}
+
+.button.styl-material:hover,
+.button.styl-material:focus {
+	outline: none;
+	background: #EC407A;
+}
+
+.ripple-obj {
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	fill: #AD1457;
+}
+
+.ripple-obj use {
+	opacity: 0;
+}
+
+/* Colors */
+.theme-2 .button.styl-material {
+	background: #2196F3;
+}
+
+.theme-2 .button.styl-material:hover,
+.theme-2 .button.styl-material:focus {
+	background: #2b9bf4;
+}
+
+.theme-3 .button.styl-material {
+	background: #009688;
+}
+
+.theme-3 .button.styl-material:hover,
+.theme-3 .button.styl-material:focus {
+	background: #26A69A;
+}
+
+.theme-3 .ripple-obj {
+	fill: #00695C;
+}
