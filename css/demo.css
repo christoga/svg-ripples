@@ -39,7 +39,8 @@ footer {
 	display: block;
     padding: 0.5em 0 1em;
     color: #A4B0B9;
-    font-weight: normal;        
+    font-weight: normal;
+    font-size: 1.3em;
 }
 
 .hidden {
