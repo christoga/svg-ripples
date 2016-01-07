@@ -34,6 +34,14 @@ a:hover, a:focus {
 	color: #1F3546;
 }
 
+footer {
+	text-align: center;
+	display: block;
+    padding: 0.5em 0 1em;
+    color: #A4B0B9;
+    font-weight: normal;        
+}
+
 .hidden {
 	position: absolute;
 	overflow: hidden;
